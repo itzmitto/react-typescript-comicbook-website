@@ -2,13 +2,13 @@ import React from 'react';
 import './index.css';
 import './index2.css';
 import './index3.css';
+
 const App: React.FC = () => {
   return (
     <div className="App">
       <nav className="navbar">
         <div className="navbar-left">
           <div className="logo">Comicbooks.com</div>
-
           <ul className="nav-links">
             <li><a href="#">Types</a></li>
             <li><a href="#">Genres</a></li>
@@ -18,7 +18,6 @@ const App: React.FC = () => {
             <li><a href="#">Random</a></li>
           </ul>
         </div>
-
         <div className="navbar-center">
           <input
             type="text"
@@ -26,7 +25,6 @@ const App: React.FC = () => {
             className="search-bar"
           />
         </div>
-
         <div className="navbar-right">
           <button className="filter-btn">Filter</button>
           <button className="login-btn">Login</button>
@@ -34,30 +32,65 @@ const App: React.FC = () => {
       </nav>
 
       <div className="cards-container">
-        <div className="card">
-          <h2>Completed</h2>
-          <h3>Naruto</h3>
-          <p>When Naruto is subsequently appointed to Team 7...</p>
-          <p>Action Shounen Super Power</p>
 
+        <div className="card">
+          <div className="card-content">
+            <p className="card-status">Completed</p>
+            <h3 className="card-title">Naruto</h3>
+            <p className="card-description">
+              Whenever Naruto Uzumaki proclaims that he will someday...
+            </p>
+            <p className="card-meta">Chap 700.6 · Vol 72</p>
+            <div className="card-tags">
+              <span className="card-tag">Action</span>
+              <span className="card-tag">Shounen</span>
+              <span className="card-tag">Super Power</span>
+            </div>
+          </div>
+          <div className="card-image">
+            <img src="assets/img1.jpg" alt="Naruto cover" />
+          </div>
         </div>
 
         <div className="card">
-          <h2>Releasing</h2>
-          <h3>One Punch Man</h3>
-          <p>After rigorously training for three years, the ordinary...</p>
-          <p>Action Comedy Drama</p>
-
+          <div className="card-content">
+            <p className="card-status">Releasing</p>
+            <h3 className="card-title">One Punch Man</h3>
+            <p className="card-description">
+              After rigorously training for three years, the ordinary...
+            </p>
+            <p className="card-meta">Chap 195 · Vol 30</p>
+            <div className="card-tags">
+              <span className="card-tag">Action</span>
+              <span className="card-tag">Comedy</span>
+              <span className="card-tag">Drama</span>
+            </div>
+          </div>
+          <div className="card-image">
+            <img src="assets/img2.jpg" alt="One Punch Man cover" />
+          </div>
         </div>
 
         <div className="card">
-          <h2>Releasing</h2>
-          <h3>Dragon Ball Super</h3>
-          <p>having defeated Boo, Goku is starting to get..</p>
-          <p>Action Sci-Fi Super Power</p>
+          <div className="card-content">
+            <p className="card-status">Releasing</p>
+            <h3 className="card-title">Dragon Ball Super</h3>
+            <p className="card-description">
+              Having defeated Boo, Goku is starting to get...
+            </p>
+            <p className="card-meta">Chap 103 · Vol 22</p>
+            <div className="card-tags">
+              <span className="card-tag">Action</span>
+              <span className="card-tag">Sci-Fi</span>
+              <span className="card-tag">Super Power</span>
+            </div>
+          </div>
+          <div className="card-image">
+            <img src="assets/img3.jpg" alt="Dragon Ball Super cover" />
+          </div>
         </div>
+
       </div>
-
     </div>
   );
 };
