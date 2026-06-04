@@ -21,11 +21,14 @@ const App: React.FC = () => {
           </ul>
         </div>
         <div className="navbar-center">
-          <input
-            type="text"
-            placeholder="Search manga..."
-            className="search-bar"
-          />
+          <div className="search-wrapper">
+            <i className="fa-solid fa-magnifying-glass search-icon"></i>
+            <input
+              type="text"
+              placeholder="Search manga..."
+              className="search-bar"
+            />
+          </div>
         </div>
         <div className="navbar-right">
           <button className="filter-btn">Filter</button>

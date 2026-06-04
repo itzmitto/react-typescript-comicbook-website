@@ -75,10 +75,26 @@ body {
   padding: 0 30px;
 }
 
-.search-bar {
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
   width: 100%;
   max-width: 500px;
-  padding: 10px 15px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  color: var(--text3);
+  font-size: 14px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px 15px 10px 38px;
   border: 1px solid #374151;
   border-radius: 16px;
   background-color: var(--color5);
@@ -89,7 +105,6 @@ body {
 .search-bar::placeholder {
   color: var(--text3);
 }
-
 
 .navbar-right {
   display: flex;
