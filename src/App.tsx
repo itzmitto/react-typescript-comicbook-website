@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 import './index2.css';
-
+import './index3.css';
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -33,9 +33,23 @@ const App: React.FC = () => {
         </div>
       </nav>
 
-      <main className="content">
-        <h1>Hello World</h1>
-      </main>
+      <div className="cards-container">
+        <div className="card">
+          <h3>Card 1</h3>
+          <p>Beschrijving van card 1</p>
+        </div>
+
+        <div className="card">
+          <h3>Card 2</h3>
+          <p>Beschrijving van card 2</p>
+        </div>
+
+        <div className="card">
+          <h3>Card 3</h3>
+          <p>Beschrijving van card 3</p>
+        </div>
+      </div>
+
     </div>
   );
 };
