@@ -1,0 +1,122 @@
+.most-viewed {
+  background-color: #0d1117;
+  padding: 24px 20px;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.most-viewed__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.most-viewed__title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.most-viewed__filters {
+  display: flex;
+  gap: 4px;
+}
+
+.most-viewed__filter-btn {
+  background: transparent;
+  border: none;
+  color: #8b9ab3;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: color 0.15s ease;
+}
+
+.most-viewed__filter-btn:hover {
+  color: #ffffff;
+}
+
+.most-viewed__filter-btn--active {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.most-viewed__grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 1100px) {
+  .most-viewed__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .most-viewed__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.manga-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.manga-card__image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #1a2235;
+}
+
+.manga-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.manga-card:hover .manga-card__image {
+  transform: scale(1.03);
+}
+
+.manga-card__rank {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background-color: #1a1f2e;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.manga-card__title {
+  font-size: 13px;
+  color: #d0d8e8;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 4px 6px 6px;
+  background-color: #111827;
+  border-radius: 4px;
+}
