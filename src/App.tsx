@@ -2,6 +2,8 @@ import React from 'react';
 import './index.css';
 import './index2.css';
 import './index3.css';
+import './index3.css';
+import './index4.css';
 
 const App: React.FC = () => {
   return (
@@ -89,8 +91,21 @@ const App: React.FC = () => {
             <img src="assets/img3.jpg" alt="Dragon Ball Super cover" />
           </div>
         </div>
-
       </div>
+
+      <div className="share-container">
+        <p className="share-text">
+          If you enjoy the website, please consider sharing it with your friends. Thank you!
+        </p>
+      </div>
+
+
+      <div className="cards2-container">
+        <p className="cards2">
+          hier komen de andere cards te recht later maken
+        </p>
+      </div>
+
     </div>
   );
 };

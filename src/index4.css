@@ -1,0 +1,17 @@
+.share-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 87rem;
+  background-color: var(--bg3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.share-text {
+  color: var(--text3);
+  font-size: 0.95rem;
+  margin: 0;
+}
