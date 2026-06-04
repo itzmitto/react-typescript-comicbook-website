@@ -35,18 +35,26 @@ const App: React.FC = () => {
 
       <div className="cards-container">
         <div className="card">
-          <h3>Card 1</h3>
-          <p>Beschrijving van card 1</p>
+          <h2>Completed</h2>
+          <h3>Naruto</h3>
+          <p>When Naruto is subsequently appointed to Team 7...</p>
+          <p>Action Shounen Super Power</p>
+
         </div>
 
         <div className="card">
-          <h3>Card 2</h3>
-          <p>Beschrijving van card 2</p>
+          <h2>Releasing</h2>
+          <h3>One Punch Man</h3>
+          <p>After rigorously training for three years, the ordinary...</p>
+          <p>Action Comedy Drama</p>
+
         </div>
 
         <div className="card">
-          <h3>Card 3</h3>
-          <p>Beschrijving van card 3</p>
+          <h2>Releasing</h2>
+          <h3>Dragon Ball Super</h3>
+          <p>having defeated Boo, Goku is starting to get..</p>
+          <p>Action Sci-Fi Super Power</p>
         </div>
       </div>
 
