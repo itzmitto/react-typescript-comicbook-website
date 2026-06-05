@@ -52,7 +52,7 @@
     width: 120px;
     min-width: 120px;
     height: 160px;
-    object-fit: cover;
+    object-fit: cover; 
     display: block;
     flex-shrink: 0;
 }
