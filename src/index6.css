@@ -50,11 +50,10 @@
 
 .cards2-title {
   text-align: center;
-  color: #ffffff;
+  color: var(--text3);
   font-size: 0.85rem;
   font-weight: 500;
   padding: 8px 6px;
-  background: #1a2235;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
