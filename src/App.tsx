@@ -5,6 +5,7 @@ import './index3.css';
 import './index3.css';
 import './index4.css';
 import './index5.css';
+import './index6.css';
 
 const App: React.FC = () => { 
   return (
