@@ -1,12 +1,61 @@
 .cards2-container {
   display: flex;
   gap: 20px;
-  padding: 20px;
   justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  flex-wrap: wrap;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.cards2 {
+  width: 180px;
+  border-radius: 12px;
+  background: #1a2235;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cards2:hover {
+  transform: translateY(-10px);
+}
+
+.cards2-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cards2-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #1a2235;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 6px;
+  line-height: 1.4;
+}
+
+.cards2-title {
+  text-align: center;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 8px 6px;
+  background: #1a2235;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
