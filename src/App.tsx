@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react';    
 import './index.css';
 import './index2.css';
 import './index3.css';
@@ -6,7 +6,7 @@ import './index3.css';
 import './index4.css';
 import './index5.css';
 
-const App: React.FC = () => {
+const App: React.FC = () => { 
   return (
     <div className="App">
       <nav className="navbar">
