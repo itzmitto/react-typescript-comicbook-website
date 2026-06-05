@@ -241,6 +241,7 @@ const App: React.FC = () => {
       </div>
 
       <div className="cards2-container">
+        <h1 className="cards2-heading">Recently Updated</h1>
         <div className="cards2">
           <img src="/assets/img4.jpg" alt="Card afbeelding" className="cards2-img" />
           <h2 className="cards2-badge">1</h2>
@@ -320,61 +321,39 @@ const App: React.FC = () => {
       </div>
 
       <div className="cards4-container">
+        
         <div className="cards4">
-          <img src="/assets/img4.jpg" alt="Card afbeelding" className="cards2-img" />
-          <h2 className="cards2-badge">1</h2>
-          <p className="cards2-title">One Piece</p>
+          <img src="/assets/img10.jpg" alt="Card afbeelding" className="cards4-img" />
+          <p className="cards4-title">One Piece</p>
         </div>
-          </div>
+        <div className="cards4">
+          <img src="/assets/img11.jpg" alt="Card afbeelding" className="cards4-img" />
+          <p className="cards4-title">One Piece</p>
+        </div>
+        <div className="cards4">
+          <img src="/assets/img13.jpg" alt="Card afbeelding" className="cards4-img" />
+          <p className="cards4-title">One Piece</p>
+        </div>
+        <div className="cards4">
+          <img src="/assets/img12.jpg" alt="Card afbeelding" className="cards4-img" />
+          <p className="cards4-title">One Piece</p>
+        </div>
+        <div className="cards4">
+          <img src="/assets/img14.jpg" alt="Card afbeelding" className="cards4-img" />
+          <p className="cards4-title">One Piece</p>
+        </div>
+        <div className="cards4">
+          <img src="/assets/img15.jpg" alt="Card afbeelding" className="cards4-img" />
+          <p className="cards4-title">One Piece</p>
+        </div>
+        <div className="cards4">
+          <img src="/assets/img16.jpg" alt="Card afbeelding" className="cards4-img" />
+          <p className="cards4-title">One Piece</p>
+        </div>
+      </div>
 
     </div>
   );
 };
 
 export default App;
-
-
-
-
-
-
-
-
-
- <div className="cards2-container">
-        <div className="cards2">
-          <img src="/assets/img4.jpg" alt="Card afbeelding" className="cards2-img" />
-          <h2 className="cards2-badge">1</h2>
-          <p className="cards2-title">One Piece</p>
-        </div>
-        <div className="cards2">
-          <img src="/assets/img1.jpg" alt="Card afbeelding" className="cards2-img" />
-          <h2 className="cards2-badge">2</h2>
-          <p className="cards2-title">Naruto</p>
-        </div>
-        <div className="cards2">
-          <img src="/assets/img5.jpg" alt="Card afbeelding" className="cards2-img" />
-          <h2 className="cards2-badge">3</h2>
-          <p className="cards2-title">Blue lock</p>
-        </div>
-        <div className="cards2">
-          <img src="/assets/img6.jpg" alt="Card afbeelding" className="cards2-img" />
-          <h2 className="cards2-badge">4</h2>
-          <p className="cards2-title">That Time I Got Reincarnated as a Slime</p>
-        </div>
-        <div className="cards2">
-          <img src="/assets/img8.jpg" alt="Card afbeelding" className="cards2-img" />
-          <h2 className="cards2-badge">5</h2>
-          <p className="cards2-title">Jujutsu Kaisen</p>
-        </div>
-        <div className="cards2">
-          <img src="/assets/img7.jpg" alt="Card afbeelding" className="cards2-img" />
-          <h2 className="cards2-badge">6</h2>
-          <p className="cards2-title">Kagurabachi</p>
-        </div>
-        <div className="cards2">
-          <img src="/assets/img2.jpg" alt="Card afbeelding" className="cards2-img" />
-          <h2 className="cards2-badge">7</h2>
-          <p className="cards2-title">One Punch Man</p>
-        </div>
-      </div>

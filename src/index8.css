@@ -6,3 +6,38 @@
     padding: 1rem;
     flex-wrap: wrap;
 }
+
+.cards4 {
+  width: 180px;
+  border-radius: 12px;
+  background: #1a2235;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+
+.cards4:hover {
+  transform: translateY(-10px);
+}
+
+.cards4-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.cards4-title {
+  text-align: center;
+  color: var(--text3);
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 8px 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
