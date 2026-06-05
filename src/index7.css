@@ -1,0 +1,146 @@
+.cards3-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards3-container {
+    width: 100%;
+    background-color: var(--bg);
+    padding: 2rem 1.5rem;
+}
+
+.cards3 {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.cards3-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #e8eaf0;
+    margin: 0 0 1.5rem 0;
+}
+
+.cards3-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.cards3-card {
+    background-color: var(--bg3);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.cards3-card-inner {
+    display: flex;
+    gap: 0;
+}
+
+.cards3-cover {
+    width: 120px;
+    min-width: 120px;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    flex-shrink: 0;
+}
+
+.cards3-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    flex: 1;
+    min-width: 0;
+}
+
+.cards3-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.125rem;
+}
+
+.cards3-type {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color2);
+    margin: 0;
+    text-transform: none;
+}
+
+.cards3-tabs {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.cards3-tab {
+    font-size: 0.7rem;
+    color: var(--text3);
+    margin: 0;
+    cursor: pointer;
+}
+
+.cards3-tab-active {
+    color: var(--text2);
+    border-bottom: 1px solid #9ca3af;
+    padding-bottom: 1px;
+}
+
+
+.cards3-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(-text3);
+    margin: 0 0 0.375rem 0;
+    line-height: 1.35;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.cards3-chapters {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-top: auto;
+}
+
+.cards3-chapter-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.cards3-chapter-label {
+    font-size: 0.78rem;
+    color: #9ca3af;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.cards3-lang {
+    font-size: 0.7rem;
+    color: #6b7280;
+}
+
+.cards3-chapter-time {
+    font-size: 0.72rem;
+    color: #4b5563;
+    margin: 0;
+    white-space: nowrap;
+    flex-shrink: 0;
+}

@@ -21,3 +21,15 @@
     font-size: 1.2rem;
   }
 }
+
+@media (max-width: 1024px) {
+  .cards3-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .cards3-grid {
+    grid-template-columns: 1fr;
+  }
+}
