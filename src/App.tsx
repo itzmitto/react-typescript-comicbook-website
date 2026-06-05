@@ -241,8 +241,8 @@ const App: React.FC = () => {
       </div>
 
       <div className="cards2-container">
-        <h1 className="cards2-heading">Recently Updated</h1>
         <div className="cards2">
+          <h1 className="cards2-heading">Recently Updated</h1>
           <img src="/assets/img4.jpg" alt="Card afbeelding" className="cards2-img" />
           <h2 className="cards2-badge">1</h2>
           <p className="cards2-title">One Piece</p>
@@ -321,7 +321,7 @@ const App: React.FC = () => {
       </div>
 
       <div className="cards4-container">
-        
+        <h1 className="cards4-heading">Recently Updated</h1>
         <div className="cards4">
           <img src="/assets/img10.jpg" alt="Card afbeelding" className="cards4-img" />
           <p className="cards4-title">One Piece</p>
